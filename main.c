@@ -30,8 +30,9 @@ int readWord() {
 }
 
 int wordTime(char a[],char b[]) {
-    int i,j=0,x=0;
-    for ( i = 0; a[i] != '\0'; i++) {
+    int j=0,x=0;
+    int i;
+    for (i = 0; a[i] != '\0'; i++) {
         if (a[i]== b[i]) {
             for (j=i+1; b[j]!='\0'; j++) {
                 if (a[j]!=b[j]) {
