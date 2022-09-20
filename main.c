@@ -1,21 +1,20 @@
 #include <stdio.h>
-#include <string.h>
 
 int wordTime(char a[],char b[]);
-int readparagraph();
-int readword();
+int readParagraph();
+int readWord();
 
 int main() {
     int count_word;
     char my_paragraph,my_word;
-    my_paragraph = readparagraph();
-    my_word = readword();
+    my_paragraph = readParagraph();
+    my_word = readWord();
     count_word = wordTime(my_paragraph,my_word);
-    printf("\n\" %s \" word \" %d \" times in the paragraph\n",my_word,count_word);
+    printf("\n\" %s \" word \" %d \" times in the paragraph: ",my_word,count_word);
     return 0;
 }
 
-int readparagraph() {
+int readParagraph() {
     char Paragraph[1000];
     printf("Give your paragraph: ");
     gets(Paragraph);
@@ -23,7 +22,7 @@ int readparagraph() {
 }
 
 
-int readword() {
+int readWord() {
     char Word[30];
     printf("\n Enter the word  to be counted = \n  ");
     gets(Word);
