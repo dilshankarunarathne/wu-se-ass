@@ -24,7 +24,7 @@ int readParagraph() {
 
 int readWord() {
     char Word[30];
-    printf("\n Enter the word  to be counted = \n  ");
+    printf("\n Enter the word  to be counted: ");
     gets(Word);
     return Word;
 }
