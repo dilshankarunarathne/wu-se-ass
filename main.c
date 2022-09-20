@@ -17,7 +17,7 @@ int main() {
 
 int readparagraph() {
     char Paragraph[1000];
-    printf("\n Give your paragraph.... \n  ");
+    printf("Give your paragraph: ");
     gets(Paragraph);
     return Paragraph;
 }
