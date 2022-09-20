@@ -7,7 +7,6 @@ char readParagraph() {
     return Paragraph;
 }
 
-
 char readWord() {
     char Word[30];
     printf("Enter the word  to be counted :");
