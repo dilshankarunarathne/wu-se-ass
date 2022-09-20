@@ -16,7 +16,7 @@ int main() {
 
 int readParagraph() {
     char Paragraph[1000];
-    printf("Give your paragraph: ");
+    printf("Give your paragraph :");
     gets(Paragraph);
     return Paragraph;
 }
@@ -24,7 +24,7 @@ int readParagraph() {
 
 int readWord() {
     char Word[30];
-    printf("Enter the word  to be counted: ");
+    printf("Enter the word  to be counted :");
     gets(Word);
     return Word;
 }
