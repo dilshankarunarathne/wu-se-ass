@@ -10,7 +10,7 @@ int main() {
     my_paragraph = readParagraph();
     my_word = readWord();
     count_word = wordTime(my_paragraph,my_word);
-    printf("\n\" %s \" word \" %d \" times in the paragraph: ",my_word,count_word);
+    printf("\" %s \" word \" %d \" times in the paragraph: ",my_word,count_word);
     return 0;
 }
 
