@@ -27,6 +27,7 @@ int wordTime(char a[],char b[]) {
             x++;
         }
     }
+    return x;
 }
 
 int main() {
